@@ -1,0 +1,29 @@
+{
+    "author": "Alexander Loktionov",
+    "classifications": [ "Web" ],
+    "name": "Web template",
+    "identity": "loktionov129.web",
+    "shortName": "loktionov129.web",
+    "tags": {
+        "language": "C#"
+    },
+    "sourceName": "loktionov129.web",
+    "preferNameDirectory" : "true",
+    "symbols": {
+        "project_name": {
+            "type": "parameter",
+            "defaultValue": "DefaultProject",
+            "replaces": "ProjectName",
+            "fileRename": "ProjectName"
+        }
+    },
+    "sources": [
+        {
+            "modifiers": [
+                {
+                    "exclude": [ "src/.vs/**", "bin/**", "obj/**", ".git/**" ]
+                }
+            ]
+        }
+    ]
+}

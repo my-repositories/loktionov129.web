@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>loktionov129.web</id>
+    <version>1.0.0</version>
+    <description>
+      Web template.
+    </description>
+    <authors>Alexander Loktionov</authors>
+    <packageTypes>
+      <packageType name="Template" />
+    </packageTypes>
+    <license type="file">LICENSE</license>
+  </metadata>
+</package>
