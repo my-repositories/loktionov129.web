@@ -15,6 +15,12 @@
             "defaultValue": "DefaultProject",
             "replaces": "ProjectName",
             "fileRename": "ProjectName"
+        },
+        "docker_repository_name": {
+            "type": "parameter",
+            "defaultValue": "default129",
+            "replaces": "project129",
+            "fileRename": "project129"
         }
     },
     "sources": [
